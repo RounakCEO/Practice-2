@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  background-color: rgba(186, 186, 186, 0.5);
+  padding: 50px;
+  border: 20px solid white;
+}
+.center {
+  display: grid;
+  place-items: center;
+}
+.cicle-image {
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+.image-container {
+  margin-top: 30px;
+}
+.about-para {
+  margin-top: 20px;
+  font-size: 15px;
+  max-width: 600px;
+}
+.bottom {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.lists,
+li {
+  margin-bottom: 20px;
+}

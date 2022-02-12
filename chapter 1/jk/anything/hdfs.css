@@ -1,0 +1,24 @@
+body {
+  margin: 10px;
+}
+article p:first-of-type {
+  font-size: 190%;
+  font-style: italic;
+}
+article p:last-of-type {
+    font weight: bold;
+}
+ul,li{
+    list-style: none;
+}
+li:nth-child(odd){
+    color: deeppink;
+}:nth-child(even){
+  color: green;
+}
+a :visited,a:link{
+    color: blue;
+}
+a:hover,a:focus{
+    color: rgb(255, 0, 242);
+}
